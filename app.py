@@ -7,7 +7,7 @@ import json
 async def launch_web_ui(update: Update, callback: CallbackContext):
     # For now, we just display google.com...
     kb = [
-        [KeyboardButton("Show me my web app!", web_app=WebAppInfo("https://gitlab.com/self1290941/web_interface_bot/"))]
+        [KeyboardButton("Show me my web app!", web_app=WebAppInfo("https://poojapal1412.github.io/Web_interface_bot/"))]
     ]
     await update.message.reply_text("Let's do this...", reply_markup=ReplyKeyboardMarkup(kb))
 
